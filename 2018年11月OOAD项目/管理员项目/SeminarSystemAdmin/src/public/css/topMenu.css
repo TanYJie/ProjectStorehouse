@@ -1,0 +1,40 @@
+.top{
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  min-width: 800px;
+}
+
+#topMenu{
+  height:90px;
+  background-color: #409EFF;
+  text-align: left;
+  overflow: hidden;
+  min-width: 800px;
+  opacity: 0.9;
+}
+.topMenuImg{
+  height: 40px;
+  vertical-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.topMenuRight{
+  float: right;
+  margin-right: 10px;
+  vertical-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.topMenuRightText{
+  float: right;
+  margin-right: 25px;
+  vertical-align: center;
+  margin-top: 33px;
+  margin-bottom: 33px;
+  color: #ffffff;
+  font-size: 16px;
+  /*font-family: 黑体;*/
+}

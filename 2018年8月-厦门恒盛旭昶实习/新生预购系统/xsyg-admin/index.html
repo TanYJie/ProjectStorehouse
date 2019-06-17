@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>厦大新生预购系统管理员端</title>
+  </head>
+  <body onbeforeunload="checkLeave()">
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+<script>
+
+  import app from "./src/App"
+  function checkLeave(){
+    app.methods.delCookie("IsAdminister");
+  }
+</script>
